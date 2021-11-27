@@ -21,4 +21,11 @@ function findSmallestInt(args) {
     return n;
 }
 
+
+function bestSolution(args) {
+        return Math.min(...args);
+        //... spread syntax https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+        }
+
 console.log(findSmallestInt([78, 56, 232, -12, -88]));
+console.log(bestSolution([78, 56, 232, -12, -88]));
